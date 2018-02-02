@@ -17,3 +17,5 @@ Add as a plugin to the list of TPM plugins in `.tmux.conf`:
 Hit `prefix + I` to fetch the plugin and source it.
 
 ## Screenshots
+![tmux-wolfpack(1)](https://github.com/mbdimitrova/tmux-wolfpack/raw/master/theme/tmux-wolfpack(1).png)
+![tmux-wolfpack(2)](https://github.com/mbdimitrova/tmux-wolfpack/raw/master/theme/tmux-wolfpack(2).png)

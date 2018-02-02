@@ -27,7 +27,7 @@ set-option -g message-fg colour219 # pink
 
 # pane number display
 set-option -g display-panes-active-colour colour135 # purple
-set-option -g display-panes-colour colour235 # dark grey
+set-option -g display-panes-colour colour244 # grey
 
 # clock
 set-window-option -g clock-mode-colour colour74 # blue
