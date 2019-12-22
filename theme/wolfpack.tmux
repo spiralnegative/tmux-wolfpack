@@ -1,5 +1,5 @@
 ##########################################################
-# wolfpack - https://github.com/mbdimitrova/tmux-wolfpack
+# wolfpack - https://github.com/spiralnegative/tmux-wolfpack
 ##########################################################
 
 # default statusbar colors
