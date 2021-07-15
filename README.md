@@ -19,3 +19,4 @@ Hit `prefix + I` to fetch the plugin and source it.
 ## Screenshots
 ![tmux-wolfpack(1)](https://github.com/spiralnegative/tmux-wolfpack/raw/master/theme/tmux-wolfpack(1).png)
 ![tmux-wolfpack(2)](https://github.com/spiralnegative/tmux-wolfpack/raw/master/theme/tmux-wolfpack(2).png)
+![tmux-wolfpack(3)](https://github.com/spiralnegative/tmux-wolfpack/raw/master/theme/tmux-wolfpack(3).png)

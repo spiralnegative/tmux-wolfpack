@@ -2,36 +2,32 @@
 # wolfpack - https://github.com/spiralnegative/tmux-wolfpack
 ##########################################################
 
-# default statusbar colors
-set-option -g status-bg colour235 # dark grey
-set-option -g status-fg colour158  # light green
-set-option -g status-attr default
+# statusbar
+set -g status-style bg="#222222",fg="#64fbc8"
+setw -g window-status-style bg="#222222",fg="#c5c8c6"
+setw -g window-status-current-style bg="#222222",fg="#efabec"
+set -g status-justify centre
 
-# default window title colors
-set-window-option -g window-status-fg colour244 # grey
-set-window-option -g window-status-bg default
-set-window-option -g window-status-attr dim
-
-# active window title colors
-set-window-option -g window-status-current-fg colour86 # mint green
-set-window-option -g window-status-current-bg default
-set-window-option -g window-status-current-attr bright
+# windows
+setw -g window-style bg="#515252"
+setw -g window-active-style bg="#222222"
 
 # pane border
-set-option -g pane-border-fg colour235 # dark grey
-set-option -g pane-active-border-fg colour135 # purple
-
-# message text
-set-option -g message-bg colour235 # dark grey
-set-option -g message-fg colour219 # pink
+set -g pane-active-border-style bg="#222222",fg="#abfdd8"
 
 # pane number display
-set-option -g display-panes-active-colour colour135 # purple
-set-option -g display-panes-colour colour244 # grey
+set -g display-panes-active-colour "#ae81ff"
+set -g display-panes-colour "#c5c8c6"
+
+# message text
+set -g message-style bg="#222222",fg="#ae81ff"
 
 # clock
-set-window-option -g clock-mode-colour colour74 # blue
+setw -g clock-mode-colour "#3bb1df"
 
 # select mode
-set-option -g mode-bg colour116 # light blue
-set-option -g mode-fg colour235 # dark grey
+setw -g mode-style bg="#87d7d7",fg="#222222"
+
+# set statusbar length on each side
+set -g status-left-length 100
+set -g status-right-length 100
